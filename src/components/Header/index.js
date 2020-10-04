@@ -1,10 +1,10 @@
 import { Container, Grid, Typography } from '@material-ui/core';
 
-import './Header.module.scss';
+import styles from './Header.module.scss';
 
 const Header = () => {
   return (
-    <div className={Styles.header}>
+    <div className={styles.header}>
       <Container fixed>
         <Grid container justify="center" alignItems="center" spacing={5}>
           <Grid item xs={12} sm={6}>
